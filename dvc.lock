@@ -1,0 +1,13 @@
+schema: '2.0'
+stages:
+  demo:
+    cmd: python -m demo
+    deps:
+    - path: demo.py
+      hash: md5
+      md5: 1f88ef4dd097d7e91a48359a6298b22b
+      size: 3173
+    params:
+      params.yaml:
+        demo.alpha: 0.5
+        demo.l1_ratio: 0.5

@@ -1,0 +1,8 @@
+stages:
+  demo:
+    cmd: python -m demo
+    deps:
+      - demo.py
+    params:
+      - demo.alpha
+      - demo.l1_ratio
